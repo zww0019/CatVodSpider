@@ -30,15 +30,6 @@
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/zww0019/CatVodSpider/main/json/bili.json"
     },
     {
-      "key": "泥巴",
-      "name": "泥巴",
-      "type": 3,
-      "api": "csp_NiNi",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
       "key": "獨播",
       "name": "獨播",
       "type": 3,
