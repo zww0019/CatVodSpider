@@ -4,10 +4,8 @@
   "lives": [
     {
       "name": "直播",
-      "type": 1,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/live.json",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
-      "logo": "http://epg.51zmt.top:8000/{logo}"
+      "type": 0,
+      "url": "https://video.kdphoto.cn/output_zww.txt"
     }
   ],
   "sites": [
@@ -19,7 +17,7 @@
       "searchable": 1,
       "filterable": 1,
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/alist.json"
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/zww0019/CatVodSpider/main/json/alist.json"
     },
     {
       "key": "哔哩",
@@ -29,7 +27,7 @@
       "searchable": 1,
       "filterable": 1,
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/bili.json"
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/zww0019/CatVodSpider/main/json/bili.json"
     },
     {
       "key": "泥巴",
@@ -48,7 +46,7 @@
       "searchable": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/duboku.json"
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/zww0019/CatVodSpider/main/json/duboku.json"
     },
     {
       "key": "快播",
