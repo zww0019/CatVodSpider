@@ -4,6 +4,9 @@ import android.app.Activity;
 import android.os.Bundle;
 
 import com.github.catvod.R;
+import com.github.catvod.crawler.SpiderDebug;
+import com.github.catvod.spider.Bili;
+import com.github.catvod.spider.Dm84;
 import com.github.catvod.spider.Init;
 
 public class MainActivity extends Activity {
