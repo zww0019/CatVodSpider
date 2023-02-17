@@ -83,7 +83,7 @@
       "key": "me",
       "name": "me",
       "type": 1,
-      "api": "https://video.kdphoto.cn",
+      "api": "https://api.kdphoto.cn/",
       "searchable": 1,
       "filterable": 0,
       "changeable": 1,
