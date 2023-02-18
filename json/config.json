@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/zww0019/CatVodSpider/main/jar/custom_spider.jar;md5;029605ba89c58f14982a8aa1665cbeef",
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/zww0019/CatVodSpider/main/jar/custom_spider.jar",
   "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
   "lives": [
     {
@@ -86,6 +86,15 @@
       "searchable": 1,
       "filterable": 1,
       "changeable": 1
+    },
+    {
+      "key": "陶片",
+      "name": "陶片",
+      "type": 3,
+      "api": "csp_Tpzy",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0
     },
     {
       "key": "異界",
