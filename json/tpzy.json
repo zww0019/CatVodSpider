@@ -40,7 +40,7 @@
   "cateVodMark": "",
   "dtUrl": "https://www.taopianzy.com/home/play/1/{vid}.html",
   "dtNode": "//body",
-  "dtName": "//nav[@id='ghkmualn']/div[@id='detailsComent']/div[@class='coment layout']/div[@class='coment-min']/div[@class='min-left']/div[@class='right']/span[@class='name']",
+  "dtName": "//nav[@id='ghkmualn']/div[@id='detailsComent']/div[@class='coment layout']/div[@class='coment-min']/div[@class='min-left']/div[@class='right']/span[@class='name']/text()",
   "dtNameR": "",
   "dtImg": "//nav[@id='ghkmualn']/div[@id='detailsComent']/div[@class='coment layout']/div[@class='coment-min']/div[@class='min-left']/div[@class='left']/img[@id='videoPoster']/@src",
   "dtImgR": "",
