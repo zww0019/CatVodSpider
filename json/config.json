@@ -93,8 +93,8 @@
       "type": 3,
       "api": "csp_Tpzy",
       "searchable": 1,
-      "filterable": 0,
-      "changeable": 0
+      "filterable": 1,
+      "changeable": 1
     },
     {
       "key": "異界",
