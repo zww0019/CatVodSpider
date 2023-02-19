@@ -4,7 +4,6 @@ import android.text.TextUtils;
 
 import com.github.catvod.bean.Result;
 import com.github.catvod.bean.Vod;
-import com.github.catvod.crawler.Spider;
 import com.github.catvod.crawler.SpiderDebug;
 import com.github.catvod.utils.Trans;
 import com.github.catvod.utils.Utils;
@@ -13,12 +12,16 @@ import org.seimicrawler.xpath.JXDocument;
 import org.seimicrawler.xpath.JXNode;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class Tpzy extends XPath {
+
+  @Override
+  public String homeContent(boolean filter) {
+    SpiderDebug.log("加载homecontent");
+    return super.homeContent(filter);
+  }
+
   @Override
   public String detailContent(List<String> ids) {
     fetchRule();
