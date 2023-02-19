@@ -93,8 +93,9 @@
       "type": 3,
       "api": "csp_Tpzy",
       "searchable": 1,
-      "filterable": 1,
-      "changeable": 1
+      "filterable": 0,
+      "changeable": 0,
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/zww0019/CatVodSpider/main/json/tpzy.json"
     },
     {
       "key": "異界",
