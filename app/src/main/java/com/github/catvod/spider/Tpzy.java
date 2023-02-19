@@ -18,8 +18,9 @@ public class Tpzy extends XPath {
 
   @Override
   public String homeContent(boolean filter) {
-    SpiderDebug.log("加载homecontent");
-    return super.homeContent(filter);
+    String homeContent = super.homeContent(filter);
+    SpiderDebug.log(homeContent);
+    return homeContent;
   }
 
   @Override
