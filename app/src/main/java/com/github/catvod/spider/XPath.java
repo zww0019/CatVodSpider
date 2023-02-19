@@ -45,6 +45,7 @@ public class XPath extends Spider {
 
   @Override
   public String homeContent(boolean filter) {
+    SpiderDebug.log("aaa");
     fetchRule();
     List<Vod> list = new ArrayList<>();
     List<Class> classes = new ArrayList<>();
