@@ -1,11 +1,13 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/zww0019/CatVodSpider/main/jar/custom_spider.jar",
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;029605ba89c58f14982a8aa1665cbeef",
   "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
   "lives": [
     {
       "name": "直播",
-      "type": 0,
-      "url": "https://video.kdphoto.cn/output_zww.txt"
+      "type": 1,
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/live.json",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
+      "logo": "http://epg.51zmt.top:8000/{logo}"
     }
   ],
   "sites": [
