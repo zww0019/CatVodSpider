@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
               Tpzy tpzy = new Tpzy();
               tpzy.init(
                   MainActivity.this,
-                  "https://gh-proxy.com/https://raw.githubusercontent.com/zww0019/CatVodSpider/main/json/config.json");
+                  "https://gh-proxy.com/https://raw.githubusercontent.com/zww0019/CatVodSpider/main/json/tpzy.json");
               String homeContent = tpzy.homeContent(true);
               String categoryContent = tpzy.categoryContent("66", "1", false, new HashMap<>());
               String detail = tpzy.detailContent(Arrays.asList("243_71291"));
