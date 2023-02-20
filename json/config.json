@@ -74,7 +74,7 @@
     {
       "key": "1080",
       "name": "1080",
-      "type": 0,
+      "type": 1,
       "api": "https://api.1080zyku.com/inc/api_mac10.php",
       "searchable": 1,
       "filterable": 0,
