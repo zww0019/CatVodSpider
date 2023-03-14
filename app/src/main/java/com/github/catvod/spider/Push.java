@@ -1,5 +1,6 @@
 package com.github.catvod.spider;
 
+import android.content.Context;
 import android.text.TextUtils;
 
 import com.github.catvod.bean.Result;
@@ -11,6 +12,11 @@ import java.util.List;
 public class Push extends Ali {
 
     @Override
+    public void init(Context context, String extend) {
+        super.init(context, extend);
+    }
+
+    @Override
     public String detailContent(List<String> ids) throws Exception {
         String url = ids.get(0).trim();
         if (url.contains("aliyundrive")) return super.detailContent(ids);
@@ -19,10 +25,10 @@ public class Push extends Ali {
 
     @Override
     public String playerContent(String flag, String id, List<String> vipFlags) {
-        if (flag.contains("畫")) return super.playerContent(flag, id, vipFlags);
+        if (flag.equals("直連")) return Result.get().url(id).string();
         if (flag.equals("嗅探")) return Result.get().parse().url(id).string();
         if (flag.equals("解析")) return Result.get().parse().jx().url(id).string();
-        return Result.get().url(id).string();
+        return super.playerContent(flag, id, vipFlags);
     }
 
     private Vod vod(String url) {
